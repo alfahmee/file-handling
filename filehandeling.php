@@ -59,6 +59,11 @@ Registration form
 	?>
 
 
+
+	if = fopen("temp.text", "a");
+	 fwrite($f $$firstName ."". $lastName "". $Email ."". $Gender ."".$recemail  "\n")
+
+
 	<h1>Registration Form Self</h1>
 
 	<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']) ?>" method="POST">
@@ -152,7 +157,7 @@ Registration form
 </fieldset>
 
 <button type="submit" class="Submit">submit
-
+  
 
 
 
